@@ -60,16 +60,16 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    API_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
+    BOT_TOKEN = "6430015242:AAG5eGK4MYd9-58PjYfJZy0LhcfMvpWly1I"
+    API_ID =24427150  # Your APP_ID from Telegram
+    API_HASH = "9fcc60263a946ef550d11406667404fa"  # Your APP_HASH from Telegram
     OWNER_ID = 1344569458  # Your telegram user id defult to mine
     MESSAGE_DUMP = -100845454887  # Your Private Group ID for logs
-    DEV_USERS = []
-    SUDO_USERS = []
-    WHITELIST_USERS = []
-    DB_URI = ""  # Your mongo DB URI
-    DB_NAME = ""  # Your DB name
+    DEV_USERS = [6404226395]
+    SUDO_USERS = [6404226395]
+    WHITELIST_USERS = [6404226395]
+    DB_URI = "mongodb+srv://shekharhatture:kUi2wj2wKxyUbbG1@cluster0.od4v7eo.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
+    DB_NAME = "lodaaa"  # Your DB name
     NO_LOAD = []
     GENIUS_API_TOKEN = ""
     RMBG_API = ""
